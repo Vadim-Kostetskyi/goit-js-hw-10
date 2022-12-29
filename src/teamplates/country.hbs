@@ -11,7 +11,7 @@
         <ul>
             <li><span>Capital: </span>{{capital}}</li>
             <li><span>Population: </span>{{population}}</li>
-            <li><span>Languages: </span>{{{languages}}}</li>
+            <li><span>Languages: </span>{{#each languages}}{{this}}{{/each}}</li>
         </ul>
     </li>
     </ul>
